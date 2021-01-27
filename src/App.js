@@ -16,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <div className="row">
-        <div className="col-6">
           {buttons.map((el, index) => {
             var className = `btn ${activeId === index ? "active" : ""}`;
 
@@ -25,7 +24,6 @@ function App() {
             )
 
           })}
-        </div>
       </div>
       <div className="promotions">
 
